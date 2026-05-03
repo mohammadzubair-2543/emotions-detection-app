@@ -65,3 +65,11 @@ if st.button("Predict"):
 
         st.success(f"Predicted Emotion: **{emotion}**")
         st.info(f"Confidence: **{round(confidence * 100, 2)}%**")
+
+
+
+st.markdown("""
+<div class="footer">
+    <p>Designed & Developed by Mohammad Zubair | <a href="https://github.com/mohammadzubair-2543/movie-recommendation-system.git" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+</div>
+""", unsafe_allow_html=True)
