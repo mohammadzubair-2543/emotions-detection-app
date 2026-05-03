@@ -69,7 +69,28 @@ if st.button("Predict"):
 
 
 st.markdown("""
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0e1117;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #4da6ff;
+    text-decoration: none;
+}
+</style>
+
 <div class="footer">
-    <p>Designed & Developed by Mohammad Zubair | <a href="https://github.com/mohammadzubair-2543/movie-recommendation-system.git" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+    <p>Designed & Developed by Mohammad Zubair | 
+    <a href="https://github.com/mohammadzubair-2543/emotions-detection-app" target="_blank">
+    GitHub Repository</a></p>
 </div>
 """, unsafe_allow_html=True)
